@@ -1,5 +1,6 @@
 .meme-form {
     text-align: center;
+    background-color: lightgray;
 }
 
 .container {
@@ -13,8 +14,8 @@
     text-align: center;
     word-wrap: break-word;
     top: 10px;
-    left: 0;
-    width: 100%;
+    left: 10%;
+    width: 80%;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     -webkit-text-stroke-width: 1.5px;
@@ -40,4 +41,12 @@
     left: 0;
     width: 10%;
     height: 10%;
+}
+
+input {
+    margin: 5px 5px;
+}
+
+label {
+    margin: 5px 5px;
 }
