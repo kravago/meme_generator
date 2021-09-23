@@ -23,6 +23,11 @@ function createMeme(imgLink, topText, botText) {
 
     newMeme.append(img, top, bot);
     memeSection.append(newMeme);
+
+    // clear form
+    inputTopText.value = "";
+    inputBotText.value = "";
+    image.value = "";
 }
 
 // form submission to insert meme in section
